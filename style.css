@@ -1,0 +1,104 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color:cornflowerblue;
+    color: blue;
+}
+
+h1 {
+    text-shadow: 2px 2px 4px  rgba (0, 0, 0, 0.5);
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+header {
+    background-color: cornflowerblue;
+    color: blue;
+    text-align: center;
+    
+}
+
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+
+
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color:lightblue;
+    color: coral;
+    text-align: center;
+  
+}
+
+
+
+
+main.arriba {
+
+    padding: 20px;
+    background-color: lightblue;
+    border: 4px dotted blue;
+}
+
+
+main.abajo {
+
+
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: lightblue;
+    border: 4px dotted blue;
+    
+}
+
+
+
+
+
+nav ul li a {
+    color: white;
+    background-color: cornflowerblue; 
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px; 
+    border: 2px solid blue;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+
+
+
+nav ul li a:hover {
+    background-color: #fff; 
+    color:blueviolet;
+}
+
+main.productos{
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    
+
+}
